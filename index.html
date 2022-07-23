@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--HEADER-->
+        <!--просто хедер для розуміння браузером, фізично не має впливу-->
+    <header>
+        <!--спільний блок хедера, типу block, щоб норм на сторінці був-->
+        <div class="general-header">
+            <!--блок хедера з картинкою, типу inline по відношенню до блоку зі списком-->
+            <div id="logo-header-container">
+                <img src="img/logo.svg">
+            </div>
+            <!--блок хедера зі списком, типу inline по відношенню до блоку з картинкою-->
+            <div id="list-header-container">
+            <ul>
+                <li><a href="#wines">Wines</a></li>
+                <li><a href="#where-to-buy">Where to buy</a></li>
+                <li><a href="#cocktails">Cocktails</a></li>
+                <li><a href="#our-story">Our story</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#"><span class="fa fa-globe fa-lg" aria-hidden="true"></span></a>
+                    <button class="globe-triangle-button"><a href="#"><i class="fa fa-caret-down"></i></a></button>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </header>
+<!--/HEADER-->
+<!--MAIN-->
+    <main>
+        <!--жовтий контейнер-->
+        <div class="yellow-div">
+            <h1>Where to buy</h1>
+            <p>[yellow tail] is available to enjoy worldwide.
+            </br>Enter your location below and we'll find your closest stockist.</p>
+        </div>
+        <!--сірий спільний контейнер, тип блок-->
+        <div class="first-general-grey-div">
+            <!--блок форми з реченням your location-->
+            <div id="container-with-form">
+                <form id="form">
+                    <h2 id=>Your location</h2>
+                    <input id="location-name-in-form" name="location-name" type="text" value="" placeholder='Eg. Sydney, NSW 2000'>
+                    <button id="search-button"><img id="arrow-button" src="img/arrow.svg"><a href="#">Search</a></button>
+            </form>
+            </div>
+        </div>
+             <!--параграф-->
+        <div class="second-general-grey-div">
+            <p>Enter your location above to start your search...</p>
+        </div>
+    </main>
+<!--/MAIN-->
+<!--FOOTER-->
+    <footer>
+        <div class="general-footer">
+            <div id="logo-footer-container">
+                <img src="img/logo.svg">
+            </div>
+            <div id="list-footer-container">
+                <ul>
+                    <a href="#wines">Wines</a>
+                    <li><a href="#where-to-buy">Where to buy</a></li>
+                    <li><a href="#cocktails">Cocktails</a></li>
+                    <li><a href="#our-story">Our story</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+<!--/FOOTER-->
+</body>
+</html>
